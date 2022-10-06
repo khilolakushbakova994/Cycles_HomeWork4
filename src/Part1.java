@@ -24,7 +24,7 @@ public class Part1 {
         System.out.println("Task Number 4\n");
 
         for (int i = 10; i >= -10; i--) {
-            System.out.println("Итерация цикла  " + i);
+            System.out.println("Итерация цикла    " + i);
         }
     }
 }

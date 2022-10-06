@@ -11,13 +11,13 @@ public class Part3 {
         }
 
 
-            System.out.println("Task Number 2");
+            System.out.println("Task Number 2\n");
 
 int totalSum =0;
             for (int i = 1; i <= 12; i++) {
                 int amountPerMonth = deposit + deposit/ 100;
                 totalSum= totalSum +amountPerMonth;
-                System.out.println("Месяц  " + i + "  , сумма накоплений равна  " + totalSum + "  рублей");
+                System.out.println("Месяц  " + i + "  , сумма накоплений равна  " + totalSum + "    рублей");
             }
         }
     }
